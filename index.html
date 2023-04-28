@@ -11,43 +11,44 @@
         <br>
 
         <header>
-            <h1>devCodeCamp HTML Worksheet</h1>
+            <h1 id="header">devCodeCamp HTML Worksheet</h1>
         </header>
         
         <br>
 
         <main>
             <section>
-                <p>Section Overview</p>
+                <p id = "section overview">Section Overview</p>
 
                 <p>
                     This worksheet will help introduce you to some of the main concepts of HTML. You will learn:
                 </p>
 
+                <nav>
                 <ul>
                     <li>
-                        <p>Paragraphs and Headers</p>
+                        <p><a href = "#paragraphs and headers">Paragraphs and Headers</a></p>
                     </li>
                     <li>
-                        <p>Lists and Tables</p>
+                        <p><a href = "#lists and tables">Lists and Tables</a></p>
                     </li>
                     <li>
-                        <p>Attributes</p>
+                        <p><a href = "#attributes">Attributes</a></p>
                     </li>
                     <li>
-                        <p>Hyperlinks</p>
+                        <p><a href = "#hyperlinks">Hyperlinks</a></p>
                     </li>
                     <li>
-                        <p>Images</p>
+                        <p><a href = "#images">Images</a></p>
                     </li>
                     <li>
-                        <p>In-line and block elements</p>
+                        <p><a href = "#in-line and block elements">In-line and block elements</a></p>
                     </li>
                     <li>
                         <p>And much more!</p>
                     </li>
                 </ul>
-
+                </nav>
                 <p>
                     This worksheet is intended to be open in two programs: VS Code and your preferred web browser. To open it in your browser, find the index.html file in your File Explorer (Finder on Mac) and double click it-- it should open in your system's default browser.
                 </p>
@@ -84,7 +85,7 @@
 
             <section>
 
-                <h2>Section 1 - Paragraphs and Headers</h2>
+                <h2 id = "paragraphs and headers">Section 1 - Paragraphs and Headers</h2>
 
                 <p>
                     Most basic text you want to show up on a page should be enclosed with &lt;p&gt;&lt;/p&gt; tags, the "p" standing for "paragraph".
@@ -131,9 +132,9 @@
 
             <section>
 
-                <h2>Section 2 - Lists and Tables</h2>
+                <h2 id = "lists and tables">Section 2 - Lists and Tables</h2>
 
-                <h3>Subsection a. - Lists</h3>
+                <h3 id = "lists">Subsection a. - Lists</h3>
 
                 <p>Lists are a quick way to organize a sequence of items. There are two types of lists:</p>
 
@@ -170,7 +171,7 @@
 
                 <br>
 
-                <h3>Subsection b. - Tables</h3>
+                <h3 id = "tables">Subsection b. - Tables</h3>
 
                 <p>
                     Tables are very similar in structure to lists. There is an opening and closing &lt;table&gt; tag, and inside, there are &lt;tr&gt; (table row) tags to designate the different rows. However, unlike lists, which only have a single item in each row, a table is also split into columns, which allows a row to contain multiple cells of data.
@@ -229,7 +230,7 @@
             <br>
 
             <section>
-                <h2>Section 3 - Attributes</h2>
+                <h2 id = "attributes">Section 3 - Attributes</h2>
 
                 <p>
                     Some tags require more information than just what type of tag it is. This "extra" information is supplied through <b>attributes</b>.
@@ -262,22 +263,11 @@
             <br>
 
             <section>
-                <h2>Section 4 - Hyperlinks and Formatting</h2>
+                <h2 id = "hyperlinks">Section 4 - Hyperlinks and Formatting</h2>
 
-
-
-
-
-
-
-
-
-
-
-
-                                <p>
+                <p>
                                     Find this line on the index.html page in VS Code. It will be easy to spot, it is the paragraph that is tabbed in several extra spaces to the right. Notice that, even though it is tabbed in on the .html file, the text in the browser looks the same as all the others. Also, there are 10+ empty lines above it, yet this not create empty lines on the webpage in the browser? This demonstrates that non-markdown formatting in the .html file does not have any affect on the actual formatting of the webpage content.
-                                </p>
+                </p>
                                 
                                 
                 <p>
@@ -427,7 +417,7 @@
 
             <section>
 
-                <h2>Section 5 - Images</h2>
+                <h2 id = "images">Section 5 - Images</h2>
 
                 <p>
                     Congratulations on making it this far! This plain text website must be very boring to stare at. Let's try to make it a little more exciting by adding an image.
@@ -464,7 +454,7 @@
 
             <section>
 
-                <h2>Section 6 - Semantic Elements</h2>
+                <h2 id = "semantic elements">Section 6 - Semantic Elements</h2>
 
                 <p>
                     Up until now, we have mostly been using &lt;p&gt; tags to contain our content. The &lt;p&gt; tag is great for housing paragraph text, but as the design of our sites gets more complex, there is need for better ways to organize our content.
@@ -528,7 +518,7 @@
 
             <section>
 
-                <h2>Section 7 - Inline vs Block</h2>
+                <h2 id = "in-line and block elements">Section 7 - Inline vs Block</h2>
 
                 <p>
                     The last thing we'll look at on this project is something that you may or may not have noticed yet.
@@ -563,7 +553,7 @@
                 </p>
 
                 <p>
-                    <div>Change</div> <div>these</div> <div>&lt;span&gt;</div> <div>tags</div> <div>to</div> <div>&lt;div&gt;s</div> <span>to</span> <span>see</span> <span>the</span> <span>difference.</span>
+                    <div>Change</div> <div>these</div> <div>&lt;span&gt;</div> <div>tags</div> <div>to</div> <div>&lt;div&gt;'s</div> <div>to</div> <div>see</div> <div>the</div> <div>difference.</div>
                 </p>
 
             </section>
